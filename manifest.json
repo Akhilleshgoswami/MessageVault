@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "MessageVault",
+    "version": "1.0",
+    "description": "A simple extension",
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+
+      "icons": {
+        "16": "./icons/open.png"
+      },
+    "permissions": [
+      "storage",
+      "activeTab"
+    ]
+  }
